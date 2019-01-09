@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         public void onServiceDisconnected(ComponentName arg0) {
             vinculado = false;
         }
-
     };
 
     @Override

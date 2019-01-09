@@ -29,7 +29,7 @@ public class ServicioVinculado extends Service {
 
     public String getCurrentTime() {
         contador ++;
-        return (contador + "");
+        return (String.valueOf(contador));
     }
 
 }
