@@ -22,7 +22,6 @@ public class ServicioVinculado extends Service {
 
     @Override
     public IBinder onBind(Intent intent) {
-
         contador = 0;
         return myBinder;
     }

@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             servicio = binder.getService();
             vinculado = true;
         }
-
         public void onServiceDisconnected(ComponentName arg0) {
             vinculado = false;
         }

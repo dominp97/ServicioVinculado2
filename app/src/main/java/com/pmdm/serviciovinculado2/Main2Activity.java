@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         Intent intent = new Intent(this, ServicioVinculado.class);
         bindService(intent, myConnection, Context.BIND_AUTO_CREATE);
     }

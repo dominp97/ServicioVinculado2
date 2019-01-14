@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity"></activity>
+        <service
+            android:name=".ServicioVinculado"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
